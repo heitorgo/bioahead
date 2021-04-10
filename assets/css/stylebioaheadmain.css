@@ -1,5 +1,5 @@
 *{
-    font-family: "Arial";
+    font-family: 'Orbitron', sans-serif;
     
 }
 body{
@@ -79,6 +79,9 @@ nav a{
 nav .active a,
 nav a:hover{
     color:#1a936f;
+}
+.menu .link{
+    font-size: 12px;
 }   
 .banner_options{
     flex: 1;

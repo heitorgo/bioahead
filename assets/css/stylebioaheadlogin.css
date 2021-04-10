@@ -1,24 +1,23 @@
 *{
-    font-family: Arial;
+    font-family: 'Orbitron', sans-serif;
+}
+:root{
+    --bioahead-bg:linear-gradient(90deg,#3c3744b8,#0a369d8c,#1a936f8c);
+    --fundo-bg:linear-gradient(90deg,#2e2e2e,#111111);
+    --form-bg:linear-gradient(-90deg,#2e2e2e,#111111); 
 }
 body{
     margin: 0;
     padding: 0;
     background: #262525;
-    background:-moz-linear-gradient(90deg,#111111,#333131);
-    background: -o-linear-gradient(90deg,#111111,#333131);
-    background: -webkit-linear-gradient(90deg,#111111,#333131);
-    background: linear-gradient(90deg,#111111,#333131); 
+    background: var(--fundo-bg); 
 }
 header{
     height: 70px;
     display: flex;
     justify-content: center;
     background: #262525;
-    background:-moz-linear-gradient(90deg,#3c3744b8,#0a369d8c,#1a936f8c);
-    background: -o-linear-gradient(90deg,#3c3744b8,#0a369d8c,#1a936f8c);
-    background: -webkit-linear-gradient(90deg,#3c3744b8,#0a369d8c,#1a936f8c);
-    background: linear-gradient(90deg,#3c3744b8,#0a369d8c,#1a936f8c);
+    background: var(--bioahead-bg)
     
 }
 .container{
@@ -68,10 +67,7 @@ nav a:hover{
     justify-content: center;
     align-items: center;
     background: #2e2e2e;
-    background:-moz-linear-gradient(90deg,#2e2e2e,#111111);
-    background: -o-linear-gradient(90deg,#2e2e2e,#111111);
-    background: -webkit-linear-gradient(90deg,#2e2e2e,#111111);
-    background: linear-gradient(90deg,#2e2e2e,#111111); 
+    background: var(--form-bg); 
     width: 1500px;
     text-align: center;
     border: solid 1px #262525;
@@ -92,7 +88,7 @@ label{
     margin-bottom: 20px;
 }
 .menu .link{
-    font-size: 13px;
+    font-size: 12px;
 }
 .form-control{
     padding: 10px;
